@@ -10,6 +10,14 @@ void main() {
     int SecondNum = in.nextInt();
 
     System.out.println("Числа " + FirstNum + " и " + SecondNum + ". Выбирите оператор (+ - * /).");
-
+    String operation = in.next();
+    switch (operation) {
+        case ("+"):
+            System.out.println(FirstNum + SecondNum);
+            break;
+        default:
+            System.out.println("Такого оператора не существует");
+            break;
+    }
 
 }
