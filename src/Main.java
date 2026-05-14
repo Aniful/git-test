@@ -15,6 +15,9 @@ void main() {
         case ("+"):
             System.out.println(FirstNum + SecondNum);
             break;
+        case ("-"):
+            System.out.println(FirstNum - SecondNum);
+            break;
         default:
             System.out.println("Такого оператора не существует");
             break;
